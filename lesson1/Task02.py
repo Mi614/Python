@@ -20,9 +20,9 @@ for n, el in enumerate(task_list):
     while el:
         m = el % 10
         el //= 10
-        sum_el +=m
+        sum_el += m
     if sum_el % 7 == 0:
-        sum_b += task_list[n]
+        sum_b += task_list[n] + 17
 
 print(sum_a)
 print(sum_b)
